@@ -1,0 +1,30 @@
+//variables
+$bg-sage: #A1BE95;
+$bg-honeydew: #E2DFA2;
+$bg-bluebell: #92AAC7;
+$bg-raspberry:#ED5752;
+
+
+$d-flex: flex;
+$d-block: block;
+
+
+$color-social: (facebook: $bg-bluebell,
+    twitter: $bg-raspberry,
+    instagram: $bg-honeydew);
+
+
+
+.bg-sage {
+    background-color: $bg-sage;
+}
+
+
+
+@each $social, $color in $color-social {
+    .#{$social}-icon {
+        &:hover {
+            color: $color;
+        }
+    }
+}

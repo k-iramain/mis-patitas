@@ -1,0 +1,20 @@
+.container-main {
+    flex: 1;
+}
+
+
+.container-refu{
+    display: grid;
+    justify-content: center;
+    grid-template-columns:  500px 1fr;
+    grid-template-rows: auto ;
+    grid-gap: 10px;
+    padding: 10px;
+
+    img {
+        object-fit: cover;
+        width: 100%;
+    }
+
+}
+
