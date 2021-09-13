@@ -7823,9 +7823,6 @@ body {
 .main {
   flex: 1; }
 
-.nav-link {
-  color: #E2DFA2; }
-
 .card {
   flex: 0 0 24%;
   margin: 10px;
