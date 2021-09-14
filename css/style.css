@@ -7989,8 +7989,6 @@ form {
 .center_body {
   width: 65%;
   height: 70%;
-  background-image: url();
-  background-repeat: no-repeat;
   background-size: 100% 100%;
   display: flex;
   flex-direction: column;
