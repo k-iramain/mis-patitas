@@ -7818,7 +7818,8 @@ textarea.form-control-lg {
 body {
   display: flex;
   min-height: 100vh;
-  flex-direction: column; }
+  flex-direction: column;
+  overflow-x: hidden; }
 
 .main {
   flex: 1; }
@@ -7966,9 +7967,14 @@ form {
   grid-template-rows: auto;
   grid-gap: 10px;
   padding: 10px; }
-  .container-refu img {
-    object-fit: cover;
-    width: 100%; }
+
+.content-r img {
+  object-fit: cover;
+  width: 100%;
+  padding: 20px; }
+
+.content-text {
+  padding: 20px; }
 
 * {
   margin: 0;
